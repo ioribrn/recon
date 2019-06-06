@@ -82,3 +82,5 @@ OR copy and paste into JSParser:
 python handler.py (visit localhost:8008)
 ===============================================
 https://whatcms.org/ discover type of CMS running on website
+Ressources:
+https://github.com/enaqx/awesome-pentest
