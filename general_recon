@@ -107,3 +107,5 @@ python handler.py (visit localhost:8008)
 https://whatcms.org/ discover type of CMS running on website
 Ressources:
 https://github.com/enaqx/awesome-pentest
+ was able for the second time after Grab 👀, to access Gitlab instance of private program and this time by finding "Private-Token" header on Github,
+ 
