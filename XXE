@@ -1,2 +1,9 @@
 https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/
 https://portswigger.net/web-security/xxe#exploiting-xxe-to-retrieve-files
+Some numbers about server-side bugs found by me in 2018 across bounty programs: 
+RCE - 2 (1 tricky shell through Java EL Injection, 1 through data found in core dump)
+XXE - 1
+LFI - 2
+SSRF - 4 (3 blind, 1 with output)
+SQLi - 8 (4 mysql, 1 postgres, 3 mssql, all were blind)
+PT - 4
