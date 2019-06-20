@@ -8,3 +8,5 @@ SSRF - 4 (3 blind, 1 with output)
 SQLi - 8 (4 mysql, 1 postgres, 3 mssql, all were blind)
 PT - 4
 https://www.gardienvirtuel.ca/fr/actualites/from-xml-to-rce.php
+nice write ups:
+http://nerdint.blogspot.com/2016/08/blind-oob-xxe-at-uber-26-domains-hacked.html
