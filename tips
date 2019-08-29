@@ -1,0 +1,9 @@
+1-no-redirect or stopping in /admin/* lead to bypass admin pannel 
+2-stealing and grabbed token with xss =>https://digi.ninja/blog/xss_steal_csrf_token.php(code source exploit )
+3-password reset functionalities =>http://imranparay.blogspot.com/2018/09/testing-password-reset-functionalities.html
+          1-Leaking of password reset Token
+          2-IDOR -[Insecure Document Object Referencing]
+          3-Insecure Session management
+          4-Weakness in Life-cycle of password Reset Process
+          5-User Enumeration
+4-sql injection bypass => https://hydrasky.com/network-security/sql-injection-bypass-cheatsheet/           
